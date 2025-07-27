@@ -151,7 +151,7 @@ function buyRobert() {
   if (coins >= 10000) {
     coins -= 10000;
     updateCoins();
-    shopMessage.textContent = "Поздравляем! Вы купили Роберта и выиграли игру!";
+    shopMessage.textContent = "Поздравляем! Вы купили Роберта!";
     buyRobertBtn.disabled = true;
   } else {
     shopMessage.textContent = "Недостаточно монет для покупки Роберта.";
