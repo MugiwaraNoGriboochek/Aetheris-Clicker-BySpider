@@ -148,8 +148,8 @@ function sellAll() {
 }
 
 function buyRobert() {
-  if (coins >= 1000000) {
-    coins -= 1000000;
+  if (coins >= 10000) {
+    coins -= 10000;
     updateCoins();
     shopMessage.textContent = "Поздравляем! Вы купили Роберта и выиграли игру!";
     buyRobertBtn.disabled = true;
